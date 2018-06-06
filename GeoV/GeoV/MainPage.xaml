@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:GeoV"
+             x:Class="GeoV.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3.333*"></RowDefinition>
+            <RowDefinition Height="3.333*"></RowDefinition>
+            <RowDefinition Height="3.333*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+
+        <StackLayout Grid.Row="1">
+            <!-- Place new controls here -->
+            <Label x:Name="Lat"  Text="Latitud" VerticalOptions="Center" HorizontalOptions="Center"
+            />
+            <Label x:Name="Long"  Text="Logitud" VerticalOptions="Center" HorizontalOptions="Center"
+            />
+            <Button x:Name ="TestB"  
+          Text="Find"  
+          Clicked="TestB_Clicked"
+               />
+        </StackLayout>
+    </Grid>
+
+</ContentPage>

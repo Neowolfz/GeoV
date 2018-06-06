@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoV.Android", "GeoV\GeoV.Android\GeoV.Android.csproj", "{627F301C-D65C-443B-BC2F-AE1057541E45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoV", "GeoV\GeoV\GeoV.csproj", "{DED3CEAF-3A9A-4FF9-9853-E1A6AE089E6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{627F301C-D65C-443B-BC2F-AE1057541E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{627F301C-D65C-443B-BC2F-AE1057541E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{627F301C-D65C-443B-BC2F-AE1057541E45}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{627F301C-D65C-443B-BC2F-AE1057541E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{627F301C-D65C-443B-BC2F-AE1057541E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{627F301C-D65C-443B-BC2F-AE1057541E45}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DED3CEAF-3A9A-4FF9-9853-E1A6AE089E6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED3CEAF-3A9A-4FF9-9853-E1A6AE089E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED3CEAF-3A9A-4FF9-9853-E1A6AE089E6B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DED3CEAF-3A9A-4FF9-9853-E1A6AE089E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED3CEAF-3A9A-4FF9-9853-E1A6AE089E6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DED3CEAF-3A9A-4FF9-9853-E1A6AE089E6B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {519D9C31-69BF-4ABA-8212-428919B17ABC}
+	EndGlobalSection
+EndGlobal
