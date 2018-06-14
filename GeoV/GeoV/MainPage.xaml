@@ -18,6 +18,8 @@
             />
             <Label x:Name="Long"  Text="Logitud" VerticalOptions="Center" HorizontalOptions="Center"
             />
+            <Label x:Name="Time"  Text="Time" VerticalOptions="Center" HorizontalOptions="Center"
+            />
             <Button x:Name ="TestB"  
           Text="Find"  
           Clicked="TestB_Clicked"

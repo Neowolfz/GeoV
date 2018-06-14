@@ -41,7 +41,7 @@ namespace GeoV
             locator.DesiredAccuracy = 20;
 
             var position = await locator.GetPositionAsync();
-
+            Time.Text = "Time: " + position.Timestamp.LocalDateTime.ToString();
             Lat.Text = "Latitude: " + position.Latitude.ToString();
             Long.Text = "Longitude: " + position.Longitude.ToString();
         }
